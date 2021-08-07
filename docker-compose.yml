@@ -3,7 +3,7 @@ services:
   wikistorage-app:
     image: wikistorage-app
     ports:
-      - "8080:8080"
+      - "80:8080"
     networks:
       - wikistorage-network
     depends_on:
