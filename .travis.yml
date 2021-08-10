@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk11
+
+sudo: false
+
+notifications:
+  email:
+    recipients:
+      - vhrynevich20@gmail.com
+    on_success: never
+    on_failure: always
